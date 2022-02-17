@@ -35,7 +35,7 @@ function App() {
           <label htmlFor="name">Name</label><br />
           <input type="text" id="name" onChange={nameHandler} value={name}/><br />
           <label htmlFor="email">Email</label><br />
-          <input type="text" id="email" onChange={emailHandler} value={email}/><br />
+          <input type="email" id="email" onChange={emailHandler} value={email}/><br />
           <label htmlFor="contact">Contact No</label><br />
           <input type="text" id="contact" onChange={contactHandler} value={contact}/><br />
           <input type="radio" id="male" name="gender" defaultValue="Male" onChange={genderHandler}/>
